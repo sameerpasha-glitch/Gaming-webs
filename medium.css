@@ -1,0 +1,26 @@
+/** @format */
+
+body {
+  background-color: #f7f4ed;
+  margin: 0px;
+}
+.nav {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+}
+.left {
+  margin-left: 16rem;
+  margin-top: 4rem;
+}
+.mn {
+  display: flex;
+}
+.right {
+  float: right;
+  margin-left: 10rem;
+  margin-right: 0px;
+}

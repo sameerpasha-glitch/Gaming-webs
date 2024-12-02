@@ -1,0 +1,106 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="drop.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <button
+        class="heading"
+        style="
+          text-decoration: none;
+          box-shadow: 2px 2px black;
+          background-color: purple;
+          color: white;
+          cursor: pointer;
+        ">
+        Home
+      
+      <div class="dp-ct">
+        <a style="text-decoration: none" href="">1bhk</a><br />
+        <a style="text-decoration: none" href="">2bhk</a> <br />
+        <a style="text-decoration: none" href="">3bhk</a></button>
+        <input type="text" name="" id="" placeholder="Search Here..!" 
+        style="border-radius: 0.5em; 
+        background-image: url(search-interface-symbol.png  );
+        background-size:contain;
+        background-repeat:repeat-y; 
+        background-position: 140px 18px;">
+      </div>
+      <li  >Service</li>
+      <li  >Support</li>
+    </nav>
+    <main class="cont">
+        <a onclick="myf()" href="" style="color: white; background-color:green ;">Success</a>
+        <h3 id="p1" style="display:none;">It is a Sucess.</h3>
+        <script>
+            function myf() 
+            {
+                var txt = document.getElementById("p1");
+                p1.style.display = 'flex';
+                p1.style.color = 'green';
+                p1.style.position = 'absolute';
+                p1.style.top = '200px';
+                p1.style.left = '200px';
+                p1.style.border = '3px solid black';
+                p1.style.background = 'black';
+                p1.style.padding = '2rem';
+            }
+        </script>
+        <a href="" onclick="myf1()" style="color: white; background-color:orange ;">Error</a>
+        <h3 id="p2" style="display: none;">It is a Error.</h3>
+        <script>
+            function myf1() 
+            {
+                var txt = document.getElementById("p2");
+                p2.style.display = 'flex';
+                p2.style.color = 'orange';
+                p2.style.position = 'absolute';
+                p2.style.top = '200px';
+                p2.style.left = '1200px';
+                p2.style.border = '3px solid black';
+                p2.style.background = 'black';
+                p2.style.padding = '2rem';
+            }
+        </script>
+        <a href="" onclick="sam()" style="color: white; background-color:red ;">Failure</a>
+        <h3 id="p3 " style="display: none;">Its a Failure...!</h3>
+         <script>
+            function sam() 
+            {
+                var txt = document.getElementById("p3");
+                p3.style.display = 'flex';
+                p3.style.color = 'red';
+                p3.style.position = 'absolute';
+                p3.style.top = '200px';
+                p3.style.left = '400px';
+                p3.style.border = '3px solid black';
+                p3.style.background = 'black';
+                p3.style.padding = '2rem';
+            }
+        </script>
+        <a href="" onclick="myf3()" style="color: white; background-color:blue     ;">None</a>   
+        <h3 id="p4" style="display: none;">None To Display</h3> 
+        <script>
+            function myf3()
+            {
+                var txt = document.getElementById("p4");
+                p4.style.display = 'flex';
+                p4.style.color = 'blue';
+                p4.style.position = 'absolute';
+                p4.style.top = '400px';
+                p4.style.left = '1200px';
+                p4.style.border = '3px solid black';
+                p4.style.background = 'black';
+                p4.style.padding = '2rem';
+        
+            }
+        </script>
+    </main>
+  </body>
+</html>

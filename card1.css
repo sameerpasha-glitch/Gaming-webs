@@ -1,0 +1,24 @@
+/** @format */
+body {
+  background-color: rgb(172, 172, 239);
+}
+#nws {
+  border: 3px solid whitesmoke;
+  border-radius: 1%;
+  margin-top: 15rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding: 50px;
+  box-shadow: 5px 5px rgb(218, 213, 213);
+  background-color: white;
+  font-size: larger;
+}
+.a {
+  text-align: center;
+}
+.b {
+  text-align: center;
+}
+.c {
+  text-align: center;
+}

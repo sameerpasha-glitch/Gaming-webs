@@ -1,0 +1,43 @@
+/** @format */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(83, 162, 242);
+  padding: 5px;
+  margin: 0px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 200px;
+}
+a {
+  text-decoration: none;
+  margin-top: 25px;
+  color: black;
+}
+.cont {
+  display: flex;
+}
+.right {
+  margin-top: 10px;
+  margin-left: 300px;
+}
+#rem {
+  font-size: 3vw;
+}
+.name {
+  display: flex;
+}
+.bio {
+  margin-top: 50px;
+}
+#rup {
+  margin-left: 150px;
+}
+#ord {
+  margin-top: -50px;
+  gap: 10px;
+  color: red;
+}

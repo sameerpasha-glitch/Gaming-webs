@@ -1,0 +1,46 @@
+/** @format */
+body {
+  margin: 0% 0%;
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  body {
+    background-color: red;
+  }
+}
+.navbar {
+  list-style: none;
+  color: white;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  background-color: #4caf50;
+}
+.dp-ct {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  border: 3px solid black;
+  padding: 2em;
+  background-color: gray;
+  box-shadow: 5px 5px gray;
+  display: none;
+}
+.heading:hover .dp-ct {
+  display: block;
+  color: black;
+}
+.cont {
+  margin: 13em 40em;
+  display: flexbox;
+  display: grid;
+  gap: 2em;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2em;
+  background-color: gray;
+}
+.cont > a {
+  text-decoration: none;
+  border: 3px solid gray;
+  box-shadow: 2px 2px black;
+}

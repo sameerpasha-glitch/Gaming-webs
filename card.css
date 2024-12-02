@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+  background-color: rgb(247, 112, 112);
+}
+#flx {
+  border: 3px solid;
+  border-radius: 35px;
+  margin: 60px 550px;
+}
+#img {
+  margin: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+  padding: 70px;
+}
+#nm {
+  text-align: center;
+}
+#social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: bla;
+}
+#wrt {
+  text-align: center;
+  gap: 50px;
+  line-break: loose;
+}
+#btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+}
